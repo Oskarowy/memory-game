@@ -2,16 +2,39 @@
 
 #include <vcl.h>
 #pragma hdrstop
+#include "mmsystem.h"
 
 #include "Unit1.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
 TForm1 *Form1;
+
+int liczby[1000];
+bool gra_rozpoczeta = false;
+
 //---------------------------------------------------------------------------
 __fastcall TForm1::TForm1(TComponent* Owner)
     : TForm(Owner)
 {
 }
 //---------------------------------------------------------------------------
- 
+
+void __fastcall TForm1::FormCreate(TObject *Sender)
+{
+    randomize();
+    for(int i=0; i<1000; i++)
+    {
+        liczby[i] = random(5)+1;
+    }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Label1Click(TObject *Sender)
+{
+    if(gra_rozpoczeta==false)
+    {
+        gra_rozpoczeta = true;
+        sndPlaySound("snd/start.wav", SND_ASYNC);
+    }
+}
+//---------------------------------------------------------------------------
