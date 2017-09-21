@@ -3,7 +3,7 @@ object Form1: TForm1
   Top = 124
   Width = 812
   Height = 563
-  Caption = 'Form1'
+  Caption = 'Yip Yips Memory Game'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -11,6 +11,7 @@ object Form1: TForm1
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = False
+  OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
   object tlo: TImage
@@ -40091,6 +40092,7 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
     Transparent = True
+    OnClick = Label1Click
   end
   object z1: TImage
     Left = 112

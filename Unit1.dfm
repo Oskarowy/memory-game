@@ -5,6 +5,8 @@ object Form1: TForm1
   Height = 563
   Caption = 'Yip Yips Memory Game'
   Color = clBtnFace
+  UseDockManager = True
+  DockSite = True
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -40084,7 +40086,7 @@ object Form1: TForm1
     Cursor = crHandPoint
     Alignment = taCenter
     AutoSize = False
-    Caption = 'Label1'
+    Caption = 'ROZPOCZNIJ GR'#280
     Font.Charset = EASTEUROPE_CHARSET
     Font.Color = clWhite
     Font.Height = -48
@@ -41043,6 +41045,7 @@ object Form1: TForm1
       0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000
       FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000}
     Transparent = True
+    OnClick = z1Click
   end
   object z2: TImage
     Left = 240
@@ -41993,6 +41996,7 @@ object Form1: TForm1
       0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000
       FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000}
     Transparent = True
+    OnClick = z2Click
   end
   object z3: TImage
     Left = 360
@@ -42943,6 +42947,7 @@ object Form1: TForm1
       0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000
       FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000}
     Transparent = True
+    OnClick = z3Click
   end
   object z4: TImage
     Left = 480
@@ -43893,6 +43898,7 @@ object Form1: TForm1
       FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF00
       00FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF00}
     Transparent = True
+    OnClick = z4Click
   end
   object z5: TImage
     Left = 592
@@ -44843,6 +44849,7 @@ object Form1: TForm1
       0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000
       FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000}
     Transparent = True
+    OnClick = z5Click
   end
   object z1a: TImage
     Left = 112
