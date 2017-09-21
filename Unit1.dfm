@@ -41046,6 +41046,8 @@ object Form1: TForm1
       FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000}
     Transparent = True
     OnClick = z1Click
+    OnMouseDown = z1MouseDown
+    OnMouseUp = z1MouseUp
   end
   object z2: TImage
     Left = 240
@@ -41997,6 +41999,8 @@ object Form1: TForm1
       FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000}
     Transparent = True
     OnClick = z2Click
+    OnMouseDown = z2MouseDown
+    OnMouseUp = z2MouseUp
   end
   object z3: TImage
     Left = 360
@@ -42948,6 +42952,8 @@ object Form1: TForm1
       FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000}
     Transparent = True
     OnClick = z3Click
+    OnMouseDown = z3MouseDown
+    OnMouseUp = z3MouseUp
   end
   object z4: TImage
     Left = 480
@@ -43899,6 +43905,8 @@ object Form1: TForm1
       00FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF00}
     Transparent = True
     OnClick = z4Click
+    OnMouseDown = z4MouseDown
+    OnMouseUp = z4MouseUp
   end
   object z5: TImage
     Left = 592
@@ -44850,6 +44858,8 @@ object Form1: TForm1
       FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000}
     Transparent = True
     OnClick = z5Click
+    OnMouseDown = z5MouseDown
+    OnMouseUp = z5MouseUp
   end
   object z1a: TImage
     Left = 112
