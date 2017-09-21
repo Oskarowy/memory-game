@@ -20,6 +20,11 @@ __published:	// IDE-managed Components
     TImage *z3;
     TImage *z4;
     TImage *z5;
+    TImage *z1a;
+    TImage *z2a;
+    TImage *z3a;
+    TImage *z4a;
+    TImage *z5a;
 private:	// User declarations
 public:		// User declarations
     __fastcall TForm1(TComponent* Owner);
