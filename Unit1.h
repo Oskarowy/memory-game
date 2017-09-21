@@ -15,6 +15,11 @@ class TForm1 : public TForm
 __published:	// IDE-managed Components
     TImage *tlo;
     TLabel *Label1;
+    TImage *z1;
+    TImage *z2;
+    TImage *z3;
+    TImage *z4;
+    TImage *z5;
 private:	// User declarations
 public:		// User declarations
     __fastcall TForm1(TComponent* Owner);
