@@ -125,6 +125,8 @@ void __fastcall TForm1::z1Click(TObject *Sender)
             ile--;
             Label1->Caption = "Skucha! twój wynik to: "+IntToStr(ile);
             sndPlaySound("snd/koniec.wav", SND_ASYNC);
+            Sleep(2500);
+            Label1->Caption = "Zagraj jeszcze raz!";
             gra_rozpoczeta = false;
         }
         if(licznik == ile)
@@ -145,6 +147,8 @@ void __fastcall TForm1::z2Click(TObject *Sender)
             ile--;
             Label1->Caption = "Skucha! twój wynik to: "+IntToStr(ile);
             sndPlaySound("snd/koniec.wav", SND_ASYNC);
+            Sleep(2500);
+            Label1->Caption = "Zagraj jeszcze raz!";
             gra_rozpoczeta = false;
         }
         if(licznik == ile)
@@ -165,6 +169,8 @@ void __fastcall TForm1::z3Click(TObject *Sender)
             ile--;
             Label1->Caption = "Skucha! twój wynik to: "+IntToStr(ile);
             sndPlaySound("snd/koniec.wav", SND_ASYNC);
+            Sleep(2500);
+            Label1->Caption = "Zagraj jeszcze raz!";
             gra_rozpoczeta = false;
         }
         if(licznik == ile)
@@ -185,6 +191,8 @@ void __fastcall TForm1::z4Click(TObject *Sender)
             ile--;
             Label1->Caption = "Skucha! twój wynik to: "+IntToStr(ile);
             sndPlaySound("snd/koniec.wav", SND_ASYNC);
+            Sleep(2500);
+            Label1->Caption = "Zagraj jeszcze raz!";
             gra_rozpoczeta = false;
         }
         if(licznik == ile)
@@ -205,6 +213,8 @@ void __fastcall TForm1::z5Click(TObject *Sender)
             ile--;
             Label1->Caption = "Skucha! twój wynik to: "+IntToStr(ile);
             sndPlaySound("snd/koniec.wav", SND_ASYNC);
+            Sleep(2500);
+            Label1->Caption = "Zagraj jeszcze raz!";
             gra_rozpoczeta = false;
         }
         if(licznik == ile)

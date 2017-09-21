@@ -19,6 +19,12 @@ void sekwencja()
 {
     Application->ProcessMessages(); Sleep(1000);
 
+    Form1->z1->Picture->LoadFromFile("img/p1.bmp");
+    Form1->z2->Picture->LoadFromFile("img/p2.bmp");
+    Form1->z3->Picture->LoadFromFile("img/p3.bmp");
+    Form1->z4->Picture->LoadFromFile("img/p4.bmp");
+    Form1->z5->Picture->LoadFromFile("img/p5.bmp");
+
     Form1->z1->Enabled = false;
     Form1->z2->Enabled = false;
     Form1->z3->Enabled = false;
@@ -120,6 +126,8 @@ void __fastcall TForm1::z1Click(TObject *Sender)
             Label1->Caption = "Skucha! twój wynik to: "+IntToStr(ile);
             sndPlaySound("snd/koniec.wav", SND_ASYNC);
             gra_rozpoczeta = false;
+            Sleep(300);
+            Label1->Caption = "Zagraj jeszcze raz!";
         }
         if(licznik == ile)
         {
@@ -140,6 +148,8 @@ void __fastcall TForm1::z2Click(TObject *Sender)
             Label1->Caption = "Skucha! twój wynik to: "+IntToStr(ile);
             sndPlaySound("snd/koniec.wav", SND_ASYNC);
             gra_rozpoczeta = false;
+            Sleep(300);
+            Label1->Caption = "Zagraj jeszcze raz!";
         }
         if(licznik == ile)
         {
@@ -160,6 +170,8 @@ void __fastcall TForm1::z3Click(TObject *Sender)
             Label1->Caption = "Skucha! twój wynik to: "+IntToStr(ile);
             sndPlaySound("snd/koniec.wav", SND_ASYNC);
             gra_rozpoczeta = false;
+            Sleep(300);
+            Label1->Caption = "Zagraj jeszcze raz!";
         }
         if(licznik == ile)
         {
@@ -180,6 +192,8 @@ void __fastcall TForm1::z4Click(TObject *Sender)
             Label1->Caption = "Skucha! twój wynik to: "+IntToStr(ile);
             sndPlaySound("snd/koniec.wav", SND_ASYNC);
             gra_rozpoczeta = false;
+            Sleep(300);
+            Label1->Caption = "Zagraj jeszcze raz!";
         }
         if(licznik == ile)
         {
@@ -200,6 +214,8 @@ void __fastcall TForm1::z5Click(TObject *Sender)
             Label1->Caption = "Skucha! twój wynik to: "+IntToStr(ile);
             sndPlaySound("snd/koniec.wav", SND_ASYNC);
             gra_rozpoczeta = false;
+            Sleep(300);
+            Label1->Caption = "Zagraj jeszcze raz!";
         }
         if(licznik == ile)
         {
